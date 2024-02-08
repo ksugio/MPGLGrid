@@ -1,0 +1,43 @@
+LIBRARY	"MPGLGrid"
+EXPORTS	
+	; text
+	MPGL_TextBitmap
+	; colormap
+	MPGL_ColormapInit
+	MPGL_ColormapColor
+	MPGL_ColormapGrayscale
+	MPGL_ColormapStepColor
+	MPGL_ColormapGradColor
+	MPGL_ColormapDraw
+	; scene
+	MPGL_SceneInit
+	MPGL_SceneLightAdd
+	MPGL_SceneSetup
+	MPGL_SceneResize
+	MPGL_SceneFrontText
+	; model
+	MPGL_ModelInit
+	MPGL_ModelReset
+	MPGL_ModelFit
+	MPGL_ModelZoom
+	MPGL_ModelTranslateZ
+	MPGL_ModelTranslateY
+	MPGL_ModelTranslateX
+	MPGL_ModelRotateZ
+	MPGL_ModelRotateY
+	MPGL_ModelRotateX
+	MPGL_ModelInverse
+	MPGL_ModelSetDirection
+	MPGL_ModelGetDirection
+	MPGL_ModelSetAngle
+	MPGL_ModelGetAngle
+	MPGL_ModelTransform
+	MPGL_ModelButton
+	MPGL_ModelMotion
+	; grid
+	MPGL_GridDrawInit
+	MPGL_GridDrawList
+	MPGL_GridDrawColormapRange
+	MPGL_GridDraw
+	MPGL_GridDrawAxis
+	MPGL_GridDrawRegion
