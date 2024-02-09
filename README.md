@@ -1,4 +1,11 @@
+# MPGLGrid
+Visualization of MPGrid results using OpenGL
 
+# Install
+
+```
+> pip install MPGLGrid
+```
 
 # References
 ## draw()
